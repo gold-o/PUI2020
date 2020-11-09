@@ -66,7 +66,7 @@ function cartPage () {
 
 function retrieveCart() {
     oldArr = JSON.parse(localStorage.getItem('cartorder'));
-    console.log(oldArr);
+    //console.log(oldArr);
 
     var orderInfo = document.getElementById('orderinfo');
     var total = document.getElementById
