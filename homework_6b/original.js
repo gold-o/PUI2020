@@ -91,7 +91,7 @@ function retrieveCart() {
         '<div id="price">' + bunPrice + '</div>' + '</div>' + '<br /><br />';
 
         var total = (total + bun.price);
-        alert (bun.price);
+        //alert (bun.price);
         document.getElementById('totalprice').innerHTML = 'SUBTOTAL: ' + total;
 
     }
