@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url("https://use.typekit.net/kbg6fko.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin: 0;
+}
+.col {
+    margin: 0;
+}
+.nav {
+    position: absolute;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8vw;
+    letter-spacing: 2px;
+    color: #0f0f0f;
+    text-decoration: none;
+    top: 3%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+} 
+.nav a:link {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.nav a:visited {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.nav a:hover {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.nav a:active {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.home, .story, .credits {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.parentcontainer {
+    position: relative;
+    height: 100vh;
+}
+.title {
+    position: absolute;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+.subtitle {
+    position: absolute;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+.begin {
+    position: absolute;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8vw;
+    letter-spacing: 2px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}  
+.begin a:link {
+    text-decoration: underline;
+    color: #0f0f0f;
+}
+.begin a:visited {
+    text-decoration: underline;
+    color: #0f0f0f;
+}
+.begin a:hover {
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: larger;
+}
+.begin a:active {
+    text-decoration: none;
+    color: #0f0f0f;
+}
