@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url("https://use.typekit.net/kbg6fko.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*
+font-family: trajan-pro-3, serif;
+font-style: normal;
+font-weight: 200;
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.col {
+    margin: 0;
+    padding: 0;
+}
+.col-6 {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+/*-------------------------------*/
+
+.chapters {
+    background-color: white;
+    color: black;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+.chapters:hover {
+    background-color: #ddd;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 3px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+.show {
+    display:block;
+}
+
+/*------------------------------*/
+
+.sidebar {
+    position: absolute;
+    height: 21%;
+    width: 2%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 80vh;
+    z-index: 5;
+    border: 1px solid #0f0f0f;
+    border-top-left-radius: 8%;
+  }
+  
+  .sidebar a {
+    padding: 0% 0% 90% 30%;
+    font-size: 1vw;
+    display: block;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .onecircle {
+    height: 15%;
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 80%;
+    margin-left: 10%;
+  }
+
+  .twocircle {
+    height: 15%;
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 80%;
+    margin-left: 10%;
+    border: 1px solid black;
+    background-color: rgb(204, 204, 204);
+  }
+
+  .threecircle {
+    height: 15%;
+    width: 80%;
+    border-radius: 50%;
+    margin-bottom: 50%;
+    margin-left: 10%;
+  }
+  
+.onecircle:hover {
+    border: 1px solid black;
+    background-color: rgb(204, 204, 204);
+  }
+.twocircle:hover {
+    border: 1px solid black;
+    background-color: rgb(204, 204, 204);
+  }
+.threecircle:hover {
+    border: 1px solid black;
+    background-color: rgb(204, 204, 204);
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+/*------------------------------*/
+
+.navigation {
+    height: 5vh;
+}
+.nav {
+    position: absolute;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8vw;
+    letter-spacing: 2px;
+    color: #0f0f0f;
+    text-decoration: none;
+    top: 3%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+} 
+a:link {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+a:visited {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+a:hover {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+a:active {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+.home, .story, .credits {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.sectionone {
+    position: relative;
+    justify-content: center;
+    display: block;
+    margin: 0;
+    
+}
+.sectiontwo {
+    position: relative;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.sectionthree {
+    position: relative;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.sectionfour {
+    position: relative;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.sectionfive {
+    position: relative;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.chapter2 {
+    position: absolute;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    top: 24%;
+    z-index: 1;
+}   
+.subtitle {
+    position: absolute;
+    font-family: 'trajan-pro-3', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+    top: 28%;
+}  
+.text1 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5vw;
+    width: 55%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    line-height: 200%;
+    text-align: center;
+}
+.text2 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3vw;
+    text-align: center;
+    color: oldlace;
+    top: 80%;
+    left: 50%;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    transform: translate(-50%, -50%);
+    line-height: 200%;
+}
+.ulipic img {
+    border: 2px solid oldlace;
+    top: 0%;
+}
+.text3 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3vw;
+    text-align: center;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: oldlace;
+    line-height: 200%;
+}
+.text4 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.3vw;
+    text-align: center;
+    top: 30%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 200%;
+}
+.text5 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.8vw;
+    text-align: center;
+    top: 40%;
+    width: 55%;
+    line-height: 200%;
+}
+.text6 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.3vw;
+    text-align: center;
+    top: -25%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    line-height: 200%;
+}
+.text7 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.3vw;
+    text-align: center;
+    top: 0%;
+    width: 50%;
+    line-height: 200%;
+}
+.text8 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.3vw;
+    text-align: center;
+    top: 22%;
+    right: 15%;
+    width: 37%;
+    line-height: 200%;
+}
+.amarapic {
+    position: absolute;
+    top: 19%;
+    width: 37%;
+    left: 15%;
+    line-height: 200%;
+    text-align: center;
+}
+.amarasuli img{
+    border: 2px solid white;
+    
+}
+.text9 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.3vw;
+    text-align: center;
+    width: 55%;
+    top: 50%;
+    margin-right: 50px;
+    line-height: 200%;
+}
+.text10 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.3vw;
+    text-align: center;
+    width: 40%;
+    top: 40%;
+    left: 3%;
+    line-height: 200%;
+}
+.text11 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.3vw;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text12 {
+    position: absolute;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: oldlace;
+    font-size: 1.8vw;
+    text-align: center;
+    top: 70%;
+    right: 3%;
+    width: 30%;
+    line-height: 200%;
+    opacity: 100%;
+}
+.gradient1 {
+    height: 2000px;
+    background-image: linear-gradient(to bottom, rgba(1,11,33,1) 0%, rgba(25,26,31,1));
+    margin: 0;
+}
+.imgcontainer {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0;
+}
+#profile1 {
+    width: 100%;
+    filter: drop-shadow(3px 4px 2px #666666) grayscale(100%) opacity(70%);
+    cursor: pointer;
+    transition: .5s ease;
+}
+#profile1:hover {
+    filter: none;
+    transform: scale(1.5);
+}
+.profilecontainer {
+    position: absolute;
+    width: 20%;
+    top: 85%;
+    left: 80%;
+    justify-content: center;
+    text-align: center;
+}
+.profilecontainer p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #0f0f0f;
+    font-size: 1.3vw;
+}
+p.p1 {
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.3vw;
+    color: oldlace;
+}
+p.p2 {
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    color: oldlace;
+}
+.container-fluid {
+    padding: 0;
+}
+#profile2 {
+    width: 100%;
+    border-radius: 50%;
+}
+#amaraprofileLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+    letter-spacing: 2px;
+}
+.profile2text {
+    width: 100%;
+    border-radius: 50%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    line-height: 200%;
+    
+}
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+.stars {
+    width: 100%;
+}
